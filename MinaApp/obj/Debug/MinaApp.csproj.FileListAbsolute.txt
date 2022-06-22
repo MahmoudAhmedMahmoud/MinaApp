@@ -1,0 +1,87 @@
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\MinaApp.exe.config
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\MinaApp.exe
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\MinaApp.pdb
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Readers.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.Properties.Resources.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.csproj.GenerateResource.Cache
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.exe
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.pdb
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Bavment.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.CloseFillRecipt.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Agents.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_AgentType.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Currency.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_FillPersons.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_FillType.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_MeterBavment.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_MeterReading.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Meters.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Motalba.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_MotalbaPayment.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_PaymentMethod.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_PaymentRecipts.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Prices.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_RecordReading.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_OpenFillRecipt.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_ShipNationality.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Ships.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Docking.dll
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Main_Admin.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Meter_Admin.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Fill_Admin.resources
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.csproj.AssemblyReference.cache
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.csproj.CoreCompileInputs.cache
+E:\Work\Multimedia Dep\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.csproj.CopyComplete
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\MinaApp.exe.config
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\MinaApp.exe
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\MinaApp.pdb
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Docking.dll
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+D:\فرع الميناء\MinaApp\MinaApp\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.csproj.AssemblyReference.cache
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.csproj.SuggestedBindingRedirects.cache
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.CloseFillRecipt.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Agents.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_AgentType.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Currency.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_FillPersons.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_FillType.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Fill_Admin.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Main_Admin.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_MeterBavment.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_MeterReading.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Meters.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Meter_Admin.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Motalba.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_MotalbaPayment.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_PaymentMethod.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_PaymentRecipts.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Prices.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Readers.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Bavment.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_RecordReading.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_OpenFillRecipt.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_ShipNationality.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.frm_Ships.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.Properties.Resources.resources
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.csproj.GenerateResource.cache
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.csproj.CoreCompileInputs.cache
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.csproj.CopyComplete
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.exe
+D:\فرع الميناء\MinaApp\MinaApp\obj\Debug\MinaApp.pdb

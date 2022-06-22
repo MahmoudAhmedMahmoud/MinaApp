@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2C4BBC2B-9AF5-487E-B712-D26BBF965C68}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MinaApp</RootNamespace>
+    <AssemblyName>MinaApp</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_Water__Transportation.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Docking, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Krypton-master\Bin\ComponentFactory.Krypton.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Navigator, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Krypton-master\Bin\ComponentFactory.Krypton.Navigator.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Ribbon, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Krypton-master\Bin\ComponentFactory.Krypton.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Krypton-master\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ComponentFactory.Krypton.Workspace, Version=4.6.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Krypton-master\Bin\ComponentFactory.Krypton.Workspace.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CloseFillRecipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CloseFillRecipt.Designer.cs">
+      <DependentUpon>CloseFillRecipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cls_Bavements.cs" />
+    <Compile Include="cls_Message.cs" />
+    <Compile Include="cls_MeterBavement.cs" />
+    <Compile Include="cls_Meters.cs" />
+    <Compile Include="cls_Readers.cs" />
+    <Compile Include="cls_Reading.cs" />
+    <Compile Include="DataAccesLayer.cs" />
+    <Compile Include="frm_Agents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Agents.Designer.cs">
+      <DependentUpon>frm_Agents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AgentType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AgentType.Designer.cs">
+      <DependentUpon>frm_AgentType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Currency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Currency.Designer.cs">
+      <DependentUpon>frm_Currency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_FillPersons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_FillPersons.Designer.cs">
+      <DependentUpon>frm_FillPersons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_FillType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_FillType.Designer.cs">
+      <DependentUpon>frm_FillType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Fill_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Fill_Admin.Designer.cs">
+      <DependentUpon>frm_Fill_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Main_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Main_Admin.Designer.cs">
+      <DependentUpon>frm_Main_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MeterBavment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MeterBavment.Designer.cs">
+      <DependentUpon>frm_MeterBavment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MeterReading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MeterReading.Designer.cs">
+      <DependentUpon>frm_MeterReading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Meters.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Meters.Designer.cs">
+      <DependentUpon>frm_Meters.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Meter_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Meter_Admin.Designer.cs">
+      <DependentUpon>frm_Meter_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Motalba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Motalba.Designer.cs">
+      <DependentUpon>frm_Motalba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MotalbaPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MotalbaPayment.Designer.cs">
+      <DependentUpon>frm_MotalbaPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PaymentMethod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PaymentMethod.Designer.cs">
+      <DependentUpon>frm_PaymentMethod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PaymentRecipts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PaymentRecipts.Designer.cs">
+      <DependentUpon>frm_PaymentRecipts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Prices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Prices.Designer.cs">
+      <DependentUpon>frm_Prices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Readers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Readers.Designer.cs">
+      <DependentUpon>frm_Readers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Bavment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Bavment.Designer.cs">
+      <DependentUpon>frm_Bavment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_RecordReading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_RecordReading.Designer.cs">
+      <DependentUpon>frm_RecordReading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_OpenFillRecipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_OpenFillRecipt.Designer.cs">
+      <DependentUpon>frm_OpenFillRecipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ShipNationality.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ShipNationality.Designer.cs">
+      <DependentUpon>frm_ShipNationality.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Ships.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Ships.Designer.cs">
+      <DependentUpon>frm_Ships.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CloseFillRecipt.resx">
+      <DependentUpon>CloseFillRecipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Agents.resx">
+      <DependentUpon>frm_Agents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AgentType.resx">
+      <DependentUpon>frm_AgentType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Currency.resx">
+      <DependentUpon>frm_Currency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_FillPersons.resx">
+      <DependentUpon>frm_FillPersons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_FillType.resx">
+      <DependentUpon>frm_FillType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Fill_Admin.resx">
+      <DependentUpon>frm_Fill_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Main_Admin.resx">
+      <DependentUpon>frm_Main_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MeterBavment.resx">
+      <DependentUpon>frm_MeterBavment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MeterReading.resx">
+      <DependentUpon>frm_MeterReading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Meters.resx">
+      <DependentUpon>frm_Meters.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Meter_Admin.resx">
+      <DependentUpon>frm_Meter_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Motalba.resx">
+      <DependentUpon>frm_Motalba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MotalbaPayment.resx">
+      <DependentUpon>frm_MotalbaPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PaymentMethod.resx">
+      <DependentUpon>frm_PaymentMethod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PaymentRecipts.resx">
+      <DependentUpon>frm_PaymentRecipts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Prices.resx">
+      <DependentUpon>frm_Prices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Readers.resx">
+      <DependentUpon>frm_Readers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Bavment.resx">
+      <DependentUpon>frm_Bavment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_RecordReading.resx">
+      <DependentUpon>frm_RecordReading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_OpenFillRecipt.resx">
+      <DependentUpon>frm_OpenFillRecipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ShipNationality.resx">
+      <DependentUpon>frm_ShipNationality.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Ships.resx">
+      <DependentUpon>frm_Ships.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons8_Water__Transportation.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
