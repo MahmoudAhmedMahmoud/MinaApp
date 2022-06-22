@@ -64,7 +64,7 @@
             this.pnl_Side.Dock = System.Windows.Forms.DockStyle.Right;
             this.pnl_Side.Location = new System.Drawing.Point(1140, 0);
             this.pnl_Side.Name = "pnl_Side";
-            this.pnl_Side.Size = new System.Drawing.Size(239, 842);
+            this.pnl_Side.Size = new System.Drawing.Size(239, 788);
             this.pnl_Side.StateNormal.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.pnl_Side.TabIndex = 0;
             // 
@@ -82,7 +82,7 @@
             this.btn_Audit.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_Audit.FlatAppearance.BorderSize = 0;
             this.btn_Audit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Audit.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Audit.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Audit.ForeColor = System.Drawing.Color.White;
             this.btn_Audit.Image = ((System.Drawing.Image)(resources.GetObject("btn_Audit.Image")));
             this.btn_Audit.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -102,7 +102,7 @@
             this.btn_CashBox.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_CashBox.FlatAppearance.BorderSize = 0;
             this.btn_CashBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_CashBox.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_CashBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_CashBox.ForeColor = System.Drawing.Color.White;
             this.btn_CashBox.Image = ((System.Drawing.Image)(resources.GetObject("btn_CashBox.Image")));
             this.btn_CashBox.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -122,7 +122,7 @@
             this.btn_Accounting.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_Accounting.FlatAppearance.BorderSize = 0;
             this.btn_Accounting.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Accounting.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Accounting.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Accounting.ForeColor = System.Drawing.Color.White;
             this.btn_Accounting.Image = ((System.Drawing.Image)(resources.GetObject("btn_Accounting.Image")));
             this.btn_Accounting.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -141,7 +141,7 @@
             this.btn_Filling.Dock = System.Windows.Forms.DockStyle.Top;
             this.btn_Filling.FlatAppearance.BorderSize = 0;
             this.btn_Filling.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Filling.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Filling.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Filling.ForeColor = System.Drawing.Color.White;
             this.btn_Filling.Image = ((System.Drawing.Image)(resources.GetObject("btn_Filling.Image")));
             this.btn_Filling.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -161,7 +161,7 @@
             this.Btn_Meters.Dock = System.Windows.Forms.DockStyle.Top;
             this.Btn_Meters.FlatAppearance.BorderSize = 0;
             this.Btn_Meters.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Btn_Meters.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_Meters.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btn_Meters.ForeColor = System.Drawing.Color.White;
             this.Btn_Meters.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Meters.Image")));
             this.Btn_Meters.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -205,7 +205,7 @@
             // label1
             // 
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.label1.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(23, 35);
             this.label1.Name = "label1";
@@ -264,7 +264,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_ScreenName.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
-            this.lbl_ScreenName.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_ScreenName.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ScreenName.ForeColor = System.Drawing.Color.White;
             this.lbl_ScreenName.Location = new System.Drawing.Point(3, 35);
             this.lbl_ScreenName.Name = "lbl_ScreenName";
@@ -276,7 +276,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1379, 842);
+            this.ClientSize = new System.Drawing.Size(1379, 788);
             this.Controls.Add(this.pnl_Head);
             this.Controls.Add(this.pnl_Side);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
