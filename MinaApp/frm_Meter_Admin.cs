@@ -19,9 +19,9 @@ namespace MinaApp
 
         private void btn_RecordReaders_Click(object sender, EventArgs e)
         {
-            frm_Main_Admin FM = new frm_Main_Admin();
-            frm_Readers FR = new frm_Readers();
-            FR.ShowDialog();
+                frm_Main_Admin FM = new frm_Main_Admin();
+                frm_Readers FR = new frm_Readers();
+                FR.ShowDialog();
         }
 
         private void btn_RecordBavement_Click(object sender, EventArgs e)
@@ -47,5 +47,46 @@ namespace MinaApp
             frm_RecordReading FRR = new frm_RecordReading();
             FRR.ShowDialog();
         }
+
+        private void btn_Users_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_SendMessage_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Message_Click(object sender, EventArgs e)
+        {
+
+        }
+               
     }
 }

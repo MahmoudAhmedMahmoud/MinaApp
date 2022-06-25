@@ -119,54 +119,54 @@
             // 
             this.kryptonWrapLabel4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonWrapLabel4.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonWrapLabel4.ForeColor = System.Drawing.Color.Black;
+            this.kryptonWrapLabel4.ForeColor = System.Drawing.Color.White;
             this.kryptonWrapLabel4.Location = new System.Drawing.Point(425, 367);
             this.kryptonWrapLabel4.Name = "kryptonWrapLabel4";
             this.kryptonWrapLabel4.Size = new System.Drawing.Size(68, 34);
             this.kryptonWrapLabel4.StateNormal.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonWrapLabel4.StateNormal.TextColor = System.Drawing.Color.Black;
+            this.kryptonWrapLabel4.StateNormal.TextColor = System.Drawing.Color.White;
             this.kryptonWrapLabel4.Text = "الرسائل";
             // 
             // kryptonWrapLabel3
             // 
             this.kryptonWrapLabel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonWrapLabel3.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonWrapLabel3.ForeColor = System.Drawing.Color.Black;
+            this.kryptonWrapLabel3.ForeColor = System.Drawing.Color.White;
             this.kryptonWrapLabel3.Location = new System.Drawing.Point(959, 369);
             this.kryptonWrapLabel3.Name = "kryptonWrapLabel3";
             this.kryptonWrapLabel3.Size = new System.Drawing.Size(66, 34);
             this.kryptonWrapLabel3.StateNormal.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonWrapLabel3.StateNormal.TextColor = System.Drawing.Color.Black;
+            this.kryptonWrapLabel3.StateNormal.TextColor = System.Drawing.Color.White;
             this.kryptonWrapLabel3.Text = "التقارير";
             // 
             // kryptonWrapLabel2
             // 
             this.kryptonWrapLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonWrapLabel2.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonWrapLabel2.ForeColor = System.Drawing.Color.Black;
+            this.kryptonWrapLabel2.ForeColor = System.Drawing.Color.White;
             this.kryptonWrapLabel2.Location = new System.Drawing.Point(379, 18);
             this.kryptonWrapLabel2.Name = "kryptonWrapLabel2";
             this.kryptonWrapLabel2.Size = new System.Drawing.Size(114, 34);
             this.kryptonWrapLabel2.StateNormal.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonWrapLabel2.StateNormal.TextColor = System.Drawing.Color.Black;
+            this.kryptonWrapLabel2.StateNormal.TextColor = System.Drawing.Color.White;
             this.kryptonWrapLabel2.Text = "ادخال الحركة";
             // 
             // kryptonWrapLabel1
             // 
             this.kryptonWrapLabel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.kryptonWrapLabel1.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonWrapLabel1.ForeColor = System.Drawing.Color.Black;
+            this.kryptonWrapLabel1.ForeColor = System.Drawing.Color.White;
             this.kryptonWrapLabel1.Location = new System.Drawing.Point(889, 18);
             this.kryptonWrapLabel1.Name = "kryptonWrapLabel1";
             this.kryptonWrapLabel1.Size = new System.Drawing.Size(136, 34);
             this.kryptonWrapLabel1.StateNormal.Font = new System.Drawing.Font("Hacen Tunisia", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.kryptonWrapLabel1.StateNormal.TextColor = System.Drawing.Color.Black;
+            this.kryptonWrapLabel1.StateNormal.TextColor = System.Drawing.Color.White;
             this.kryptonWrapLabel1.Text = "البيانات الاساسية";
             // 
             // btn_RecordReaders
             // 
             this.btn_RecordReaders.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_RecordReaders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btn_RecordReaders.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.btn_RecordReaders.FlatAppearance.BorderSize = 0;
             this.btn_RecordReaders.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RecordReaders.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -182,7 +182,7 @@
             // btn_RecordMeter
             // 
             this.btn_RecordMeter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_RecordMeter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btn_RecordMeter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.btn_RecordMeter.FlatAppearance.BorderSize = 0;
             this.btn_RecordMeter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RecordMeter.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -198,7 +198,7 @@
             // btn_RecordBavement
             // 
             this.btn_RecordBavement.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_RecordBavement.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btn_RecordBavement.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.btn_RecordBavement.FlatAppearance.BorderSize = 0;
             this.btn_RecordBavement.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_RecordBavement.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -214,7 +214,7 @@
             // btn_ReadMeter
             // 
             this.btn_ReadMeter.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_ReadMeter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btn_ReadMeter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.btn_ReadMeter.FlatAppearance.BorderSize = 0;
             this.btn_ReadMeter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_ReadMeter.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -230,7 +230,7 @@
             // button6
             // 
             this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -241,11 +241,12 @@
             this.button6.TabIndex = 29;
             this.button6.Text = "تقرير";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
             this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -256,11 +257,12 @@
             this.button7.TabIndex = 29;
             this.button7.Text = "تقرير";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
             this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.button8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -271,11 +273,12 @@
             this.button8.TabIndex = 29;
             this.button8.Text = "تقرير";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
             this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.button9.FlatAppearance.BorderSize = 0;
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button9.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -286,11 +289,12 @@
             this.button9.TabIndex = 29;
             this.button9.Text = "تقرير";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
             this.button10.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.button10.FlatAppearance.BorderSize = 0;
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -301,11 +305,12 @@
             this.button10.TabIndex = 29;
             this.button10.Text = "تقرير";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // btn_Message
             // 
             this.btn_Message.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Message.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btn_Message.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.btn_Message.FlatAppearance.BorderSize = 0;
             this.btn_Message.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Message.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -316,11 +321,12 @@
             this.btn_Message.TabIndex = 29;
             this.btn_Message.Text = "الرسائل ";
             this.btn_Message.UseVisualStyleBackColor = false;
+            this.btn_Message.Click += new System.EventHandler(this.btn_Message_Click);
             // 
             // btn_SendMessage
             // 
             this.btn_SendMessage.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_SendMessage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btn_SendMessage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.btn_SendMessage.FlatAppearance.BorderSize = 0;
             this.btn_SendMessage.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_SendMessage.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -331,11 +337,12 @@
             this.btn_SendMessage.TabIndex = 29;
             this.btn_SendMessage.Text = "ارسال رسالة";
             this.btn_SendMessage.UseVisualStyleBackColor = false;
+            this.btn_SendMessage.Click += new System.EventHandler(this.btn_SendMessage_Click);
             // 
             // btn_ConnectBanMet
             // 
             this.btn_ConnectBanMet.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_ConnectBanMet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btn_ConnectBanMet.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.btn_ConnectBanMet.FlatAppearance.BorderSize = 0;
             this.btn_ConnectBanMet.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_ConnectBanMet.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -351,7 +358,7 @@
             // btn_Users
             // 
             this.btn_Users.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Users.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
+            this.btn_Users.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(146)))), ((int)(((byte)(146)))), ((int)(((byte)(146)))));
             this.btn_Users.FlatAppearance.BorderSize = 0;
             this.btn_Users.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Users.Font = new System.Drawing.Font("Hacen Tunisia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -362,6 +369,7 @@
             this.btn_Users.TabIndex = 29;
             this.btn_Users.Text = "تسجيل مستخدمين";
             this.btn_Users.UseVisualStyleBackColor = false;
+            this.btn_Users.Click += new System.EventHandler(this.btn_Users_Click);
             // 
             // frm_Meter_Admin
             // 
@@ -369,7 +377,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             this.ClientSize = new System.Drawing.Size(1053, 685);
             this.Controls.Add(this.btn_SendMessage);
             this.Controls.Add(this.btn_Message);
