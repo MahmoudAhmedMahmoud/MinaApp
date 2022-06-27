@@ -16,7 +16,7 @@ namespace MinaApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frm_Main_Admin());
+            Application.Run(new frm_Container());
         }
     }
 }

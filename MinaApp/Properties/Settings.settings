@@ -3,16 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="Server" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">192.168.1.200,1988</Value>
+      <Value Profile="(Default)">192.168.1.98,1433</Value>
     </Setting>
     <Setting Name="DataBase" Type="System.String" Scope="Application">
       <Value Profile="(Default)">MINA_DB</Value>
     </Setting>
     <Setting Name="UserName" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">Me</Value>
+      <Value Profile="(Default)">Awco</Value>
     </Setting>
     <Setting Name="Password" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">6112018</Value>
+      <Value Profile="(Default)">123456</Value>
     </Setting>
     <Setting Name="CurruntUserName" Type="System.String" Scope="Application">
       <Value Profile="(Default)">CurrentUser</Value>

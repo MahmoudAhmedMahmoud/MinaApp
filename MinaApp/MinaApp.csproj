@@ -133,6 +133,12 @@
     <Compile Include="frm_AgentType.Designer.cs">
       <DependentUpon>frm_AgentType.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_Container.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Container.Designer.cs">
+      <DependentUpon>frm_Container.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_Currency.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -264,6 +270,9 @@
     <EmbeddedResource Include="frm_AgentType.resx">
       <DependentUpon>frm_AgentType.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_Container.resx">
+      <DependentUpon>frm_Container.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_Currency.resx">
       <DependentUpon>frm_Currency.cs</DependentUpon>
     </EmbeddedResource>
@@ -350,6 +359,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icons8_Water__Transportation.ico" />
+    <None Include="Resources\Rectangle 1.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">

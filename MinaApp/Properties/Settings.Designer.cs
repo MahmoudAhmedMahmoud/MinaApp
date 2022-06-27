@@ -12,7 +12,7 @@ namespace MinaApp.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.0.3.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "17.2.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,7 +25,7 @@ namespace MinaApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("192.168.1.200,1988")]
+        [global::System.Configuration.DefaultSettingValueAttribute("192.168.1.98,1433")]
         public string Server {
             get {
                 return ((string)(this["Server"]));
@@ -43,7 +43,7 @@ namespace MinaApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Me")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Awco")]
         public string UserName {
             get {
                 return ((string)(this["UserName"]));
@@ -52,7 +52,7 @@ namespace MinaApp.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("6112018")]
+        [global::System.Configuration.DefaultSettingValueAttribute("123456")]
         public string Password {
             get {
                 return ((string)(this["Password"]));
