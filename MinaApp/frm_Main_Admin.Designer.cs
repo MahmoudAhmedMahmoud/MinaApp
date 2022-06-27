@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Main_Admin));
             this.pnl_Side = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
+            this.btn_Connection = new System.Windows.Forms.Button();
             this.pnl_SelectBtn = new System.Windows.Forms.Panel();
             this.btn_Audit = new System.Windows.Forms.Button();
             this.btn_CashBox = new System.Windows.Forms.Button();
@@ -67,6 +68,23 @@
             this.pnl_Side.Size = new System.Drawing.Size(239, 788);
             this.pnl_Side.StateNormal.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.pnl_Side.TabIndex = 0;
+            // 
+            // btn_Connection
+            // 
+            this.btn_Connection.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.btn_Connection.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Connection.BackgroundImage")));
+            this.btn_Connection.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Connection.FlatAppearance.BorderSize = 0;
+            this.btn_Connection.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btn_Connection.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_Connection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Connection.Location = new System.Drawing.Point(74, 16);
+            this.btn_Connection.Name = "btn_Connection";
+            this.btn_Connection.Size = new System.Drawing.Size(23, 24);
+            this.btn_Connection.TabIndex = 8;
+            this.btn_Connection.UseVisualStyleBackColor = true;
+            this.btn_Connection.Click += new System.EventHandler(this.btn_Connection_Click);
             // 
             // pnl_SelectBtn
             // 
@@ -216,6 +234,7 @@
             // 
             // pnl_Head
             // 
+            this.pnl_Head.Controls.Add(this.btn_Connection);
             this.pnl_Head.Controls.Add(this.btn_Minimize);
             this.pnl_Head.Controls.Add(this.btn_Exit);
             this.pnl_Head.Controls.Add(this.lbl_ScreenName);
@@ -230,12 +249,13 @@
             // 
             this.btn_Minimize.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.btn_Minimize.FlatAppearance.BorderSize = 0;
+            this.btn_Minimize.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
             this.btn_Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Minimize.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Minimize.ForeColor = System.Drawing.Color.White;
-            this.btn_Minimize.Location = new System.Drawing.Point(41, 8);
+            this.btn_Minimize.Location = new System.Drawing.Point(43, 16);
             this.btn_Minimize.Name = "btn_Minimize";
-            this.btn_Minimize.Size = new System.Drawing.Size(33, 30);
+            this.btn_Minimize.Size = new System.Drawing.Size(23, 24);
             this.btn_Minimize.TabIndex = 4;
             this.btn_Minimize.Text = "-";
             this.btn_Minimize.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -247,12 +267,13 @@
             this.btn_Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.btn_Exit.FlatAppearance.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.btn_Exit.FlatAppearance.BorderSize = 0;
+            this.btn_Exit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.btn_Exit.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Exit.ForeColor = System.Drawing.Color.White;
-            this.btn_Exit.Location = new System.Drawing.Point(12, 12);
+            this.btn_Exit.Location = new System.Drawing.Point(12, 16);
             this.btn_Exit.Name = "btn_Exit";
-            this.btn_Exit.Size = new System.Drawing.Size(33, 30);
+            this.btn_Exit.Size = new System.Drawing.Size(23, 24);
             this.btn_Exit.TabIndex = 3;
             this.btn_Exit.Text = "X";
             this.btn_Exit.UseVisualStyleBackColor = false;
