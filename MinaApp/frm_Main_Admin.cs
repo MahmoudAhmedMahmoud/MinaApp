@@ -48,7 +48,11 @@ namespace MinaApp
         {
             this.WindowState = FormWindowState.Minimized;
         }
-        
+        private void btn_Connection_Click(object sender, EventArgs e)
+        {
+
+        }
+
         //------------------------pnl_Side Btns----------------------------------
 
         private void Btn_Meters_Click(object sender, EventArgs e)
@@ -84,6 +88,6 @@ namespace MinaApp
             SelectBtn(btn_Audit);
         }
 
-
+  
     }
 }

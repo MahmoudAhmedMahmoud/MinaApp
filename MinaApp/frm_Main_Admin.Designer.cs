@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Main_Admin));
             this.pnl_Side = new ComponentFactory.Krypton.Toolkit.KryptonPanel();
-            this.btn_Connection = new System.Windows.Forms.Button();
             this.pnl_SelectBtn = new System.Windows.Forms.Panel();
             this.btn_Audit = new System.Windows.Forms.Button();
             this.btn_CashBox = new System.Windows.Forms.Button();
@@ -44,6 +43,7 @@
             this.btn_Minimize = new System.Windows.Forms.Button();
             this.btn_Exit = new System.Windows.Forms.Button();
             this.lbl_ScreenName = new System.Windows.Forms.Label();
+            this.btn_Connection = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pnl_Side)).BeginInit();
             this.pnl_Side.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pnl_Logo)).BeginInit();
@@ -68,23 +68,6 @@
             this.pnl_Side.Size = new System.Drawing.Size(239, 788);
             this.pnl_Side.StateNormal.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(45)))), ((int)(((byte)(45)))));
             this.pnl_Side.TabIndex = 0;
-            // 
-            // btn_Connection
-            // 
-            this.btn_Connection.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.btn_Connection.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Connection.BackgroundImage")));
-            this.btn_Connection.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btn_Connection.FlatAppearance.BorderSize = 0;
-            this.btn_Connection.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btn_Connection.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btn_Connection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Connection.Location = new System.Drawing.Point(74, 16);
-            this.btn_Connection.Name = "btn_Connection";
-            this.btn_Connection.Size = new System.Drawing.Size(23, 24);
-            this.btn_Connection.TabIndex = 8;
-            this.btn_Connection.UseVisualStyleBackColor = true;
-            this.btn_Connection.Click += new System.EventHandler(this.btn_Connection_Click);
             // 
             // pnl_SelectBtn
             // 
@@ -293,6 +276,22 @@
             this.lbl_ScreenName.TabIndex = 2;
             this.lbl_ScreenName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // btn_Connection
+            // 
+            this.btn_Connection.BackColor = System.Drawing.Color.Transparent;
+            this.btn_Connection.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_Connection.BackgroundImage")));
+            this.btn_Connection.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_Connection.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_Connection.FlatAppearance.BorderSize = 0;
+            this.btn_Connection.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_Connection.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Connection.Location = new System.Drawing.Point(72, 16);
+            this.btn_Connection.Name = "btn_Connection";
+            this.btn_Connection.Size = new System.Drawing.Size(23, 24);
+            this.btn_Connection.TabIndex = 3;
+            this.btn_Connection.UseVisualStyleBackColor = false;
+            this.btn_Connection.Click += new System.EventHandler(this.btn_Connection_Click);
+            // 
             // frm_Main_Admin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -303,6 +302,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.IsMdiContainer = true;
             this.Name = "frm_Main_Admin";
+            this.Opacity = 0D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frm_Main_Admin";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -333,5 +333,6 @@
         private System.Windows.Forms.Button btn_Exit;
         private System.Windows.Forms.Panel pnl_SelectBtn;
         private System.Windows.Forms.Button btn_Minimize;
+        private System.Windows.Forms.Button btn_Connection;
     }
 }
